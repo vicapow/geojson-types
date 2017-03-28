@@ -1,0 +1,14 @@
+{
+  "name": "geojson-types",
+  "version": "1.0.0",
+  "description": "Geojson type definitions for Flowtype.",
+  "main": "index.js",
+  "author": "Victor Powell <vicapow@gmail.com>",
+  "license": "MIT",
+  "devDeependencies": {
+    "flow-bin": "^0.42.0"
+  },
+  "scripts": {
+    "flow": "flow"
+  }
+}
