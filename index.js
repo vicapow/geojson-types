@@ -1,6 +1,7 @@
 // @flow
 
 /*:: export type Position = [number, number]; */
+/*:: export type LineRing = Array<Position>; */
 
 /*:: export type Point = {|
   type: 'Point',
@@ -32,17 +33,17 @@
 
 /*:: export type Polygon = {|
   type: 'Polygon',
-  coordinates: Array<Position>,
+  coordinates: Array<LineRing>,
   bbox?: Array<number>,
   crs?: { type: string, properties: mixed }
 |}; */
 
 /*:: export type MultiPolygon = {|
   type: 'MultiPolygon',
-  coordinates: Array<Array<Position>>,
+  coordinates: Array<Array<LineRing>>,
   bbox?: Array<number>,
   crs?: { type: string, properties: mixed }
-|};  */
+|}; */
 
 /*:: export type GeometryTypes =
   | 'Point'
