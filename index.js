@@ -72,6 +72,7 @@
 |}; */
 
 /*:: export type FeatureCollection = {|
+  type: 'FeatureCollection',
   features: Array<Feature<Geometry>>,
   bbox?: Array<number>,
   crs?: { type: string, properties: mixed }
