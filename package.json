@@ -8,6 +8,10 @@
   "devDeependencies": {
     "flow-bin": "^0.42.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vicapow/geojson-types.git"
+  },
   "scripts": {
     "flow": "flow"
   }
